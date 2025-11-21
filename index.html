@@ -1,47 +1,119 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruchitha Manohar | Portfolio</title>
+    
     <link rel="stylesheet" href="style.css">
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruchitha Manohar | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header class="header">
-        <a href="index.html" class="logo"><span>Ruchitha </span>Manohar</a>
-
-        <nav class="navbar">
-            <a href="index.html" class="active">Portfolio</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="gallery.html">Gallery</a>
-        </nav>
-
-        <a href="index.html" class="contact">Contact Me</a>
+        <a href="#" class="logo"><span>Ruchitha Manohar</span></a>
+        
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        
+        <a href="https://github.com/ruchix07" target="_blank" class="visit-btn">Visit Github</a>
     </header>
-
-    <section class="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Ruchitha<br><span>Tech Enthusiast</span></h1>
-            <p>I'm a curious learner and an engineering student passionate about building creative solutions. I love exploring new technologies, coding, and capturing moments through my lens.</p>
+   <section id="about" class="about">
+        <div class="about-container">
+            <img src="image.jpg" alt="">
             
-            <div class="social-media">
-                <a href="https://www.linkedin.com/in/ruchitha-m-a90539383/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/ruchix07" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/ruchiii.x07/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <div class="right-content">
+                <div class="info-box">
+                    <h3>Hi, I'm</h3>
+                    <h1>Ruchitha Manohar</h1>
+                    <span>A Curious Learner</span>
+                </div>
+                
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/ruchitha-m-a90539383/" target="_blank">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/ruchix07" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.instagram.com/ruchiii.x07/" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section id="hobbies" class="hobbies">
+        <h2 class="heading">My <span>Hobbies</span></h2>
+        
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Coding</h3>
+                <p>Building logic and creating solutions.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fa-solid fa-plane-departure"></i>
+                <h3>Travelling</h3>
+                <p>Exploring new places and cultures.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fa-solid fa-headphones"></i>
+                <h3>Music</h3>
+                <p>Vibing to beats and relaxing.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Reading</h3>
+                <p>Getting lost in fictional worlds.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fa-brands fa-youtube"></i>
+                <h3>Movies</h3>
+                <p>Binge-watching Netflix series.</p>
+            </div>
+
+            <div class="hobby-card">
+                <i class="fa-solid fa-camera-retro"></i>
+                <h3>Photography</h3>
+                <p>Capturing moments and nature.</p>
             </div>
         </div>
-        <div class="img-box">
-            <img src="image.jpg" alt="Ruchitha Profile Picture">
+    </section>
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="heading"> <span>Contact Me</span></h2>
+            
+            <div class="input-wrapper">
+                <input type="text" placeholder="example@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            
+            <div class="btn">Submit</div>
         </div>
     </section>
+
+    <footer>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">©️ All Rights Reserved | Ruchitha Manohar</p>
+    </footer>
 </body>
 </html>
